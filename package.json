@@ -1,0 +1,19 @@
+{
+  "name": "miguelportfolio",
+  "version": "1.0.0",
+  "description": "prueba de version beta",
+  "main": "script.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikethiin/Miguel-s-Portfolio.git"
+  },
+  "author": "Miguel Delgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikethiin/Miguel-s-Portfolio/issues"
+  },
+  "homepage": "https://github.com/mikethiin/Miguel-s-Portfolio#readme"
+}
