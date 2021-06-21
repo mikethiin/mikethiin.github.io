@@ -1,5 +1,5 @@
-var layerCount = 4;
-var starCount = 500;
+var layerCount = 4; //Capas de estrellas
+var starCount = 500; //Numero de estrellas
 var maxTime = 31;
 var universe = document.getElementById('universe');
 var w = window;
@@ -7,7 +7,7 @@ var d = document;
 var e = d.documentElement;
 var g = d.getElementsByTagName('body')[0];
 var width = w.innerWidth || e.clientWidth || g.clientWidth;
-var height = w.innerHeight|| e.clientHeight|| g.clientHeight;
+var height = 2000; //w.innerHeight|| e.clientHeight|| g.clientHeight;
 for (var i = 0; i < starCount; ++i) {
   var ypos = Math.round(Math.random() * height);
   var star = document.createElement('div');
