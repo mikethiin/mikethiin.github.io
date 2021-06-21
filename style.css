@@ -1,10 +1,7 @@
 *{
   font-family: 'Montserrat';
   text-align: center;
-
-  border-style: solid;
 }
-
 
 body{
   background-color: black;
@@ -15,28 +12,48 @@ br{
   color: black;
 }
 
+p{
+  padding: 1vw;
+  font-size: 1.25em;
+}
+
 /*---------ID's--------*/
 
 #cabecera{
+
 }
 
 #descripcion{
   position: relative;
   bottom: 18vh;
-  left: 19.75vw;
+  left: 20vw;
   width: 60%;
 }
 
 #foto{
-  height: 15vw;
+  height: 30.0vh;
   width: 15vw;
   border-radius: 50%;
 
   display: inline;
   margin-top: 5vh;
+  margin-right: 5vw;
+}
 
-  position: relative;
-  right: 1.5vw;
+#hackupc{
+  text-decoration: none;
+}
+
+#linkedin{
+  right:12vw;
+}
+
+#linkGithub{
+  right:17vw;
+}
+
+#linkMail{
+  right: 7vw;
 }
 
 #nombre{
@@ -44,7 +61,6 @@ br{
   display: inline;
   position: relative;
   bottom: 17vh;
-  left: 2vw;
 }
 
 #paragrafo1{
@@ -54,21 +70,44 @@ br{
   position: absolute;
   top: 20vh;
   left: 25vw;
-
   z-index: 2
+}
+
+#paragrafo2{
+  background: #f1f1f1;
+  border-radius: 10px;
+  width: 50vw;
+  position: absolute;
+  top: 110vh;
+  left: 25vw;
+  z-index: 2
+}
+
+#textoP1{
+  margin-top: -3vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 
 /*------CLASES-------*/
 
 .icons{
-  height: 3vw;
-  width: 3vw;
   margin-left: 1vw;
   margin-right: 1vw;
-  position: relative;
-  bottom: 17.5vh;
-  left: 9vw;
+  position: absolute;
+  top: 26vh;
+}
+
+.iconsImages{
+  height: 7vh;
+  width: 3.5vw;
+  transition: width 0.5s, height 0.5s;
+}
+
+.iconsImages:hover{
+  height: 4.2vw;
+  width: 4.2vw;
 }
 
 .star0 {
