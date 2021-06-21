@@ -1,0 +1,103 @@
+*{
+  font-family: 'Montserrat';
+  text-align: center;
+
+  border-style: solid;
+}
+
+
+body{
+  background-color: black;
+  overflow-x: hidden;
+}
+
+br{
+  color: black;
+}
+
+/*---------ID's--------*/
+
+#cabecera{
+}
+
+#descripcion{
+  position: relative;
+  bottom: 18vh;
+  left: 19.75vw;
+  width: 60%;
+}
+
+#foto{
+  height: 15vw;
+  width: 15vw;
+  border-radius: 50%;
+
+  display: inline;
+  margin-top: 5vh;
+
+  position: relative;
+  right: 1.5vw;
+}
+
+#nombre{
+  font-size: 3em;
+  display: inline;
+  position: relative;
+  bottom: 17vh;
+  left: 2vw;
+}
+
+#paragrafo1{
+  background: #f1f1f1;
+  border-radius: 10px;
+  width: 50vw;
+  position: absolute;
+  top: 20vh;
+  left: 25vw;
+
+  z-index: 2
+}
+
+
+/*------CLASES-------*/
+
+.icons{
+  height: 3vw;
+  width: 3vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  position: relative;
+  bottom: 17.5vh;
+  left: 9vw;
+}
+
+.star0 {
+  height: 1px;
+  width: 1px;
+  opacity: 1;
+  position: absolute;
+}
+
+.star1 {
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+}
+
+.star2 {
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+}
+
+.star3 {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+}
