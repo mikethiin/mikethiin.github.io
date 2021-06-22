@@ -8,6 +8,14 @@ body{
   overflow-x: hidden;
 }
 
+footer{
+  position: absolute;
+  top: 251vh;
+  left: 0;
+  right: 0;
+  background: #f1f1f1;
+}
+
 h1{
   font-size: 3em;
 }
@@ -85,11 +93,20 @@ p{
   background: #f1f1f1;
   border-radius: 10px;
   width: 50vw;
-  height: 50vh;
   position: absolute;
   top: 100vh;
   left: 25vw;
-  z-index: 2
+  z-index: 2;
+}
+
+#paragrafo3{
+  background: #f1f1f1;
+  border-radius: 10px;
+  width: 50vw;
+  position: absolute;
+  top: 170vh;
+  left: 25vw;
+  z-index: 2;
 }
 
 #textoP1{
@@ -99,7 +116,7 @@ p{
 }
 
 #universe{
-  height: 200vh;
+  height: 250vh;
 }
 
 /*------CLASES-------*/
@@ -127,7 +144,7 @@ p{
   width: 7vw;
   margin-left: 2vw;
   margin-right: 2vw;
-  margin-top: 3vh;
+  margin-bottom: 4vh;
   transition: opacity 0.5s;
 }
 
