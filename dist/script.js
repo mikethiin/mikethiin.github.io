@@ -12,13 +12,13 @@ console.log(height);
 for (var i = 0; i < starCount; ++i) {
   var ypos = Math.round(Math.random() * height);
   var speed = 1000 * (Math.random() * maxTime + 1);
-  if(i < 3){
-    var star = document.createElement('div');
-    star.setAttribute('class','starBiene' + i);
-  }else{
+  if(i != 1){
     var star = document.createElement('div');
     star.setAttribute('class', 'star' + (3 - Math.floor((speed / 1000) / 8)));
     star.style.backgroundColor = 'white';
+  }else{
+    var star = document.createElement('div');
+    star.setAttribute('class','starBiene' + i);
   }
   universe.appendChild(star);
   star.animate([{transform: 'translate3d(' + width + 'px, ' + ypos + 'px, 0)'},

@@ -1,6 +1,7 @@
 *{
   font-family: 'Montserrat';
   text-align: center;
+  color: white;
 }
 
 body{
@@ -13,7 +14,7 @@ footer{
   top: 250vh;
   left: 0;
   right: 0;
-  background: #f1f1f1;
+  background-image: radial-gradient( circle farthest-corner at 90.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
 }
 
 h1{
@@ -59,6 +60,11 @@ p{
 
 #hackupc{
   text-decoration: none;
+  transition: color .2s;
+}
+
+#hackupc:hover{
+  color: black;
 }
 
 #linkedin{
@@ -80,32 +86,34 @@ p{
 }
 
 #paragrafo1{
-  background: #f1f1f1;
+  background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
   border-radius: 10px;
   width: 50vw;
   position: absolute;
   top: 20vh;
-  left: 25vw;
+  left: 23vw;
+
+  max-height: 70vh;
   z-index: 2
 }
 
 #paragrafo2{
-  background: #f1f1f1;
+  background-image: radial-gradient( circle farthest-corner at 90.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
   border-radius: 10px;
   width: 50vw;
   position: absolute;
   top: 100vh;
-  left: 25vw;
+  left: 23vw;
   z-index: 2;
 }
 
 #paragrafo3{
-  background: #f1f1f1;
+  background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
   border-radius: 10px;
   width: 50vw;
   position: absolute;
   top: 170vh;
-  left: 25vw;
+  left: 23vw;
   z-index: 2;
 }
 
@@ -192,7 +200,7 @@ p{
   position: absolute;
 }
 
-.starBiene1 {
+.starBiene1 { /*Este es el tamaño que se utiliza*/
   background-image: url('Images/biene.png');
   background-size: 2vw 2vw;
   height: 2vw;
