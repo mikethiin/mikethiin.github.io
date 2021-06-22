@@ -10,7 +10,7 @@ body{
 
 footer{
   position: absolute;
-  top: 251vh;
+  top: 250vh;
   left: 0;
   right: 0;
   background: #f1f1f1;
@@ -116,7 +116,7 @@ p{
 }
 
 #universe{
-  height: 250vh;
+
 }
 
 /*------CLASES-------*/
@@ -179,6 +179,33 @@ p{
   height: 4px;
   width: 4px;
   border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+}
+
+.starBiene0 {
+  background-image: url('Images/biene.png');
+  background-size: 1vw 1vw;
+  height: 1vw;
+  width: 1vw;
+  opacity: 1;
+  position: absolute;
+}
+
+.starBiene1 {
+  background-image: url('Images/biene.png');
+  background-size: 2vw 2vw;
+  height: 2vw;
+  width: 2vw;
+  opacity: 1;
+  position: absolute;
+}
+
+.starBiene2 {
+  background-image: url('Images/biene.png');
+  background-size: 3vw 3vw;
+  height: 3vw;
+  width: 3vw;
   opacity: 1;
   position: absolute;
 }
