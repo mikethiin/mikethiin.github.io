@@ -13,21 +13,12 @@ footer{
   position: absolute;
   top: 250vh;
   left: 0;
-  right: 0;
+  right: -2vw;
   background-image: radial-gradient( circle farthest-corner at 90.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
 }
 
 h1{
   font-size: 3em;
-}
-
-h2{
- display: inline;
- width: 20%;
-
- position: relative;
- top: 4vh;
- right: 5vw;
 }
 
 p{
@@ -37,9 +28,6 @@ p{
 
 /*---------ID's--------*/
 
-#cabecera{
-
-}
 
 #descripcion{
   position: relative;
@@ -60,11 +48,12 @@ p{
 
 #hackupc{
   text-decoration: none;
+  color:black;
   transition: color .2s;
 }
 
 #hackupc:hover{
-  color: black;
+  color: white;
 }
 
 #linkedin{
@@ -118,7 +107,7 @@ p{
 }
 
 #textoP1{
-  margin-top: -3vw;
+  margin-top: -7vh;
   margin-left: 1vw;
   margin-right: 1vw;
 }
