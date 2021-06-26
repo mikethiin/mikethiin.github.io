@@ -88,6 +88,10 @@ td{
   width: 60%;
 }
 
+#foot{
+  margin-left: -5vw;
+}
+
 #foto{
   height: 30.0vh;
   width: 15vw;
@@ -118,6 +122,15 @@ td{
 
 #linkedin{
   right:12vw;
+}
+
+#linkCV{
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+#linkCV:hover{
+  color: black;
 }
 
 #linkGithub{
@@ -247,4 +260,11 @@ td{
   width: 2vw;
   opacity: 1;
   position: absolute;
+  transition: background-size .5s, height .5s, width .5s;
+}
+
+.starBiene1:hover{
+  background-size: 4vw 4vw;
+  height: 4vw;
+  width: 4vw;
 }
