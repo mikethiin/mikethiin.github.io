@@ -26,8 +26,60 @@ p{
   font-size: 1.25em;
 }
 
+table{
+  margin: auto;
+  margin-bottom: 5vh;
+}
+
+td{
+  width: 10vw;
+}
+
 /*---------ID's--------*/
 
+#circle1{
+  width: 1vh;
+  height: 1vh;
+  background: white;
+  border-radius: 25px;
+
+  position: relative;
+  right: .5vh;
+  bottom: .5vh;
+}
+
+#circle2{
+  width: 1vh;
+  height: 1vh;
+  background: white;
+  border-radius: 25px;
+
+  position: relative;
+  bottom: 1.5vh;
+  left: 9.5vw;
+}
+
+#circle3{
+  width: 1vh;
+  height: 1vh;
+  background: white;
+  border-radius: 25px;
+
+  position: relative;
+  bottom: 2.5vh;
+  left: 19.5vw;
+}
+
+#circle4{
+  width: 1vh;
+  height: 1vh;
+  background: white;
+  border-radius: 25px;
+
+  position: relative;
+  bottom: 3.5vh;
+  left: 29.5vw;
+}
 
 #descripcion{
   position: relative;
@@ -54,6 +106,14 @@ p{
 
 #hackupc:hover{
   color: white;
+}
+
+#linia{
+  width: 60%;
+  height: .1vw;
+  background: white;
+  margin: auto;
+  margin-bottom: 5vh;
 }
 
 #linkedin{
@@ -106,14 +166,14 @@ p{
   z-index: 2;
 }
 
+#tableYears{
+  margin-top: -5vh;
+}
+
 #textoP1{
   margin-top: -7vh;
   margin-left: 1vw;
   margin-right: 1vw;
-}
-
-#universe{
-
 }
 
 /*------CLASES-------*/
@@ -180,29 +240,11 @@ p{
   position: absolute;
 }
 
-.starBiene0 {
-  background-image: url('Images/biene.png');
-  background-size: 1vw 1vw;
-  height: 1vw;
-  width: 1vw;
-  opacity: 1;
-  position: absolute;
-}
-
 .starBiene1 { /*Este es el tamaño que se utiliza*/
   background-image: url('Images/biene.png');
   background-size: 2vw 2vw;
   height: 2vw;
   width: 2vw;
-  opacity: 1;
-  position: absolute;
-}
-
-.starBiene2 {
-  background-image: url('Images/biene.png');
-  background-size: 3vw 3vw;
-  height: 3vw;
-  width: 3vw;
   opacity: 1;
   position: absolute;
 }

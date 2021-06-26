@@ -8,7 +8,6 @@ var e = d.documentElement;
 var g = d.getElementsByTagName('body')[0];
 var width = w.innerWidth || e.clientWidth || g.clientWidth;
 var height = Math.floor((w.innerHeight || e.clientHeight)/100 * 250);
-console.log(height);
 for (var i = 0; i < starCount; ++i) {
   var ypos = Math.round(Math.random() * height);
   var speed = 1000 * (Math.random() * maxTime + 1);
