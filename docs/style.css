@@ -273,7 +273,18 @@ td{
 
 /*MOVILES*/
 @media only screen and (max-width: 600px){
-  *{
-    font-family: sans-serif;
+  #paragrafo1{
+    left: 13vw;
+    width: 70vw;
+  }
+
+  #paragrafo2{
+    left: 13vw;
+    width: 70vw;
+  }
+
+  #paragrafo3{
+    left: 13vw;
+    width: 70vw;
   }
 }
