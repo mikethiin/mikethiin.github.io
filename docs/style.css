@@ -18,7 +18,7 @@ footer{
 }
 
 h1{
-  font-size: 3em;
+  font-size: 250%;
 }
 
 p{
@@ -268,8 +268,22 @@ td{
 }
 
 /*--------------------------------MEDIA QUERIES---------------------------------*/
+/*Dimensiones del diseño base son: 1920x1080 (Full HD)
 
-/*MOVILES*/
+/*Pantallas HD*/
+@media only screen and (max-height: 864px){
+  #paragrafo1{
+    top: 15vh;
+  }
+  #paragrafo2{
+    top: 105vh;
+  }
+  #paragrafo3{
+    top:175vh;
+  }
+
+}
+/*Moviles (No esta acabado yet)*/
 @media only screen and (max-width: 600px){
   #paragrafo1{
     left: 13vw;
