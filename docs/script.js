@@ -1,13 +1,19 @@
 var layerCount = 4; //Capas de estrellas
 var starCount = 700; //Numero de estrellas
 var maxTime = 31;
+var h = 0
+if(screen.width > 600){//Movil
+  h = 250;
+}else {
+  h = 400;
+}
 var universe = document.getElementById('universe');
 var w = window;
 var d = document;
 var e = d.documentElement;
 var g = d.getElementsByTagName('body')[0];
 var width = w.innerWidth || e.clientWidth || g.clientWidth;
-var height = Math.floor((w.innerHeight || e.clientHeight)/100 * 250);
+var height = Math.floor((w.innerHeight || e.clientHeight)/100 * h);
 for (var i = 0; i < starCount; ++i) {
   var ypos = Math.round(Math.random() * height);
   var speed = 1000 * (Math.random() * maxTime + 1);

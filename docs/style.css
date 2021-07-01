@@ -151,8 +151,6 @@ td{
   position: absolute;
   top: 20vh;
   left: 23vw;
-
-  max-height: 70vh;
   z-index: 2
 }
 
@@ -281,10 +279,23 @@ td{
   #paragrafo2{
     left: 13vw;
     width: 70vw;
+    top: 140vh;
   }
 
   #paragrafo3{
     left: 13vw;
     width: 70vw;
+    top: 315vh;
+  }
+
+  footer{
+    top: 400vh;
+  }
+
+  .skillsImages{
+    display: block;
+    height: 25vw;
+    width: 25vw;
+    margin-left:22.5vw;
   }
 }
